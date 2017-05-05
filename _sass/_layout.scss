@@ -94,8 +94,10 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
-
+  padding: 0 $spacing-unit / 2;
 }
+
+
 
 ul.social-media-list {
 display: inline-block; /*for icons only*/}
@@ -111,6 +113,7 @@ display: inline-block; /*for icons only*/}
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+//  padding-right: $spacing-unit / 2;
 }
  .option-col {
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
@@ -147,10 +150,31 @@ display: inline-block; /*for icons only*/}
 }
 
 @include media-query($on-palm) {
+  .trigger {
+       margin: 0 auto;
+       text-align: center;
+    }
+
   .trigger a {
        display: block;
+       padding: 0 $spacing-unit / 2;
+       text-align: left;
+    }
+
+  .nav a{
+     margin:0 auto;
+     //text-align: center;
+    }
+    .site-title {
+    padding-left:15px;
     }
   
+    .hero-logo {
+   
+    margin-top: 0;
+      
+    }
+
   .footer-col, .option-col {
   display:block;
     float: none;
@@ -158,6 +182,7 @@ display: inline-block; /*for icons only*/}
     width:         calc(100% - (#{$spacing-unit} / 2));
     margin:0 auto;
     text-align: center;
+    padding: 0 $spacing-unit / 2;
 
   }
   .contact-list {
@@ -165,10 +190,13 @@ display: inline-block; /*for icons only*/}
   }
 
   .social-media-list {
-     text-align: justify;
+  text-align: justify;
      
-    //margin:0 auto;
   }
+
+  .footer-description {
+  padding: 0 $spacing-unit / 2;
+}
 }
 
 

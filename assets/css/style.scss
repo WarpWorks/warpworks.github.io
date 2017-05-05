@@ -43,7 +43,6 @@ $on-laptop:        800px !default;
 @import 'jekyll-theme-cayman';
 
 
-
 .hero-logo {
 width: 200px;
 height:200px;
@@ -79,7 +78,7 @@ margin: -20px auto -30px;
 
   .site-nav > .trigger {
   	box-sizing: border-box;
-    min-width:320px;
+    min-width:300px;
     }
 
 .trigger a {
@@ -193,7 +192,7 @@ margin: -20px auto -30px;
  }
 
 .footer-description {
-      padding-left: 40px;
+    padding-left: 40px;
 }
 
 .social-media-list li {
