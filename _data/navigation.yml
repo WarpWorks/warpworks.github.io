@@ -1,0 +1,15 @@
+#- link: /
+#  name: Home
+- link: {{ site.github.repository_url/wiki/wiki }}
+  name: Docs
+- link: {{ site.github.repository_url/ }}
+  name: Github
+- link: /try-it-out/
+  name: Try it Out
+- link: /contribute/
+  name: Contribute 
+
+   #Uncomment and edit sublinks example if needed
+    #  sublinks:
+    #- title: Sub-item 1
+    #  url: /group/si1
