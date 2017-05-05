@@ -10,7 +10,7 @@ facebook_username:    GitHub
 
 
 baseurl: "" 
-github: https://github.com/WarpWorks/
+
 repository: https://github.com/WarpWorks/warpworks.github.io/
 title: WarpWorks
 description: Welcome to the WarpWorks project! <br>The goal of WarpWorks is to provide a data-driven toolchain for very rapid application development.
