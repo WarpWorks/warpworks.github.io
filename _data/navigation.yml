@@ -1,8 +1,8 @@
 #- link: /
 #  name: Home
-- link: {{ site.github_username/wiki/wiki }}
+- link: {{ site.github/wiki/wiki }}
   name: Docs
-- link: {{ site.github_username/ }}
+- link: {{ site.github/ }}
   name: Github
 - link: /try-it-out
   name: Try it Out
