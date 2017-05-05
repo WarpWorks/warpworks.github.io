@@ -1,12 +1,12 @@
 #- link: /
 #  name: Home
-- link: {{ site.github/wiki/wiki }}
+- link: {{ site.github_username/wiki/wiki }}
   name: Docs
-- link: {{ site.github/ }}
+- link: {{ site.github_username/ }}
   name: Github
-- link: /try-it-out/
+- link: /try-it-out
   name: Try it Out
-- link: /contribute/
+- link: /contribute
   name: Contribute 
 
    #Uncomment and edit sublinks example if needed
