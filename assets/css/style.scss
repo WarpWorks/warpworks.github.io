@@ -8,7 +8,18 @@ $background-color: #fff;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$background-mark: #F3F6FA;
+
+/**
+ * red-greish version btn/bg
+ */
+/*$background-mark: #F3F6FA;
+$btn-color:#F00056;*/
+
+/**
+ *blue-grey version btn/bg
+ */
+$background-mark: #fafafb; 
+$btn-color:#024364;
 
 /* styles from minima*/
 
@@ -116,9 +127,9 @@ margin: -20px auto -30px;
 .btn {
     display: inline-block;
     margin-bottom: 1rem;
-    color: rgba(240, 0, 86, 0.9);
- //   background-color: rgba(240, 0, 86, 0.08);
-    border-color: rgba(240, 0, 86, 0.4);
+    color: rgba($btn-color, 0.9);
+ //   background-color: rgba(2$btn-color, 0.08);
+    border-color: rgba($btn-color, 0.4);
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
@@ -128,8 +139,8 @@ margin: -20px auto -30px;
 .btn:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    background-color: rgba(240, 0, 86, 0.8);
-    border-color: rgba(240, 0, 86, 0.6); }
+    background-color: rgba($btn-color, 0.8);
+    border-color: rgba($btn-color, 0.6); }
 
 
 .options {
