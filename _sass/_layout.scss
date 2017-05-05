@@ -147,6 +147,10 @@ display: inline-block; /*for icons only*/}
 }
 
 @include media-query($on-palm) {
+  .trigger a {
+       display: block;
+    }
+  
   .footer-col, .option-col {
   display:block;
     float: none;
