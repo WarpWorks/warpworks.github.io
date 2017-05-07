@@ -20,13 +20,14 @@
           </span>
         </label>
         <div class="trigger">
-         {% include navigation.html %}
+         {% include navigation.html %}<!-- add pages to menu in exact order in nav file -->
+        </div>
          <!--{% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
-          {% endfor %}  -->
+          {% endfor %}  --> <!--Auto add pages in root directory to menu-->
         </div>
       </nav>
     {% endif %}

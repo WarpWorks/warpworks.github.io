@@ -2,36 +2,35 @@
  * Site header
  */
 
-.site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  .site-nav {
+      line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
       display: none;
   }
 
   .menu-icon {
-    display: none;
+      display: none;
   }
 
   .page-link {
-    color: $body-text-color;
-    line-height: $base-line-height;
+      color: $body-text-color;
+      line-height: $base-line-height;
 
-    // Gaps between nav items, but not on the last one
+    /* Gaps between nav items, but not on the last one */
     &:not(:last-child) {
       margin-right: 20px;
     }
   }
 
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: left; 
+      position: absolute;
+      top: 9px;
+      right: $spacing-unit / 2;
+      background-color: $background-color;
+      border: 1px solid $grey-color-light;
+      border-radius: 5px;
+      text-align: left; 
 
     label[for="nav-trigger"] {
       display: block;
@@ -86,54 +85,53 @@
 
 
 .footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+    @include relative-font-size(1.125);
+    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
 .social-media-list {
-  list-style: none;
-  margin-left: 0;
-  padding: 0 $spacing-unit / 2;
+    list-style: none;
+    margin-left: 0;
+    padding: 0 $spacing-unit / 2;
 }
-
 
 
 ul.social-media-list {
-display: inline-block; /*for icons only*/}
+    display: inline-block; /*for icons only*/
+}
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
+    @include relative-font-size(0.9375);
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
 }
 
 .footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-//  padding-right: $spacing-unit / 2;
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
 }
- .option-col {
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
-  width:         calc(33% - (#{$spacing-unit} / 2));
+.option-col {
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 
 .footer-col-3 {
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-1 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -149,34 +147,42 @@ display: inline-block; /*for icons only*/}
   }
 }
 
+@media screen and (min-width: 64em) {
+
+.nav-main {
+    max-width: 64rem;
+    padding: 0 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}}
+
 @include media-query($on-palm) {
   .trigger {
-       margin: 0 auto;
-       text-align: center;
-    }
+    margin: 0 auto;
+    text-align: center;
+  }
 
   .trigger a {
-       display: block;
-       padding: 0 $spacing-unit / 2;
-       text-align: left;
+    display: block;
+    padding: 0 $spacing-unit / 2;
+    text-align: left;
     }
 
   .nav a{
-     margin:0 auto;
-     //text-align: center;
+    margin:0 auto;
+
     }
-    .site-title {
+  .site-title {
     padding-left:15px;
     }
   
-    .hero-logo {
-   
+  .hero-logo {
     margin-top: 0;
       
     }
 
   .footer-col, .option-col {
-  display:block;
+    display:block;
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
@@ -186,16 +192,16 @@ display: inline-block; /*for icons only*/}
 
   }
   .contact-list {
-  text-align: center;
+    text-align: center;
   }
 
   .social-media-list {
-  text-align: justify;
+    text-align: justify;
      
   }
 
   .footer-description {
-  padding: 0 $spacing-unit / 2;
+    padding: 0 $spacing-unit / 2;
 }
 }
 
